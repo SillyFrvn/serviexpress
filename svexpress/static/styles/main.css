@@ -78,3 +78,43 @@ label {
     display: block; /* Coloca cada etiqueta en una línea separada */
     margin-bottom: 5px; /* Espaciado inferior entre etiquetas */
 }
+/* Estilos para la barra de navegación */
+.nav {
+    background-color: #33333333; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Espaciado entre elementos */
+  }
+  
+  .nav-link {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    padding: 8px 15px; /* Espaciado interno para cada enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+  }
+  
+  .nav-link:hover {
+    background-color: #eedada10; /* Cambio de color al pasar el ratón */
+  }
+  
+  .nav-link.disabled {
+    opacity: 0.5; /* Opacidad reducida para enlaces deshabilitados */
+    pointer-events: none; /* Deshabilitar eventos de puntero para enlaces deshabilitados */
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
