@@ -1,0 +1,80 @@
+
+.fondo {
+    filter: blur(3px);
+}
+
+.title {
+    margin: 2%;
+    font-size: 36px; /* Tamaño de fuente */
+    color: #a87b1a; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    text-align: left; /* Alineación del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    filter: none;
+    
+    /* Puedes añadir otros estilos como márgenes, espaciado, etc. */
+}
+
+body {
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    height: 100vh;
+    background-image: url('../img/fondo.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    
+    
+    /* Puedes ajustar otras propiedades como la posición de la imagen, etc. según tus preferencias */
+}
+.text {
+    text-decoration: solid;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center ; 
+    margin: 25px;
+    width: 80%; /* Ancho del contenedor */
+    margin: 10px auto; /* Margen para centrar el contenedor */
+    padding: 15px; /* Espaciado interno del contenedor */
+    border: 1px solid #130101; /* Borde del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #85c77cc7; /* Color de fondo del contenedor */
+
+    
+}
+/* Estilos para alinear horizontalmente los elementos */
+.cont {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola línea */
+}
+
+/* Estilos opcionales para las tarjetas */
+.card {
+    /* Estilos específicos de las tarjetas */
+    /* Puedes agregar estilos adicionales según tus necesidades */
+    margin-bottom: 20px; /* Margen inferior para separar las tarjetas */
+}
+
+.form {
+    text-align: center;
+
+
+}
+.container {
+    width: 60%; /* Ancho del contenedor */
+    margin: 20px auto; /* Margen para centrar el contenedor */
+    padding: 15px; /* Espaciado interno del contenedor */
+    border: 1px solid #130101; /* Borde del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #d1bbb7d7; /* Color de fondo del contenedor */
+}
+
+/* Estilos para el título del formulario */
+.container h1 {
+    text-align: center; /* Alineación del título al centro */
+}
+label {
+    display: block; /* Coloca cada etiqueta en una línea separada */
+    margin-bottom: 5px; /* Espaciado inferior entre etiquetas */
+}
